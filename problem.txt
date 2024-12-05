@@ -1,0 +1,5 @@
+Problem Statement: Design a system to manage and execute tasks that have:
+-Dependencies (a task may depend on the completion of other tasks before it can start).
+-Different priorities (higher-priority tasks should be processed before lower-priority ones).
+-Failure handling (tasks may fail and need to be retried a limited number of times).
+-Support for callbacks when a task completes, whether successfully or after retries.
